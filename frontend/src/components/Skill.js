@@ -2,26 +2,34 @@ import React from 'react';
 
 const Skill = () => {
   return (
-    <article className=' '>
-      <header className='text-2xl font-bold'>
+    <article className='my-24'>
+      <header className='text-2xl font-bold '>
         <h1>Skills & Tools</h1>
       </header>
-      <div className='flex flex-row my-6 gap-5 justify-center'>
-        <div className='flex flex-col w-15'>
-          <img src='./images/javascript-original.svg' alt='github' className='w-16 ' />
+      <div className='my-7 grid gap-5 grid-cols-3 text-center place-items-center'>
+        <div>
+          <img src='./images/javascript-original.svg' alt='github' className='w-16' />
           javascript
         </div>
-        <div className='flex flex-col w-15'>
+        <div>
           <img src='./images/react-original.svg' alt='github' className='w-16' />
           React Js
         </div>
-        <div className='flex flex-col w-15'>
+        <div>
           <img src='./images/nodejs-original.svg' alt='github' className='w-16' />
           <span>Node Js</span>
         </div>
-        <div className='flex flex-col w-15'>
+        <div>
           <img src='./images/mongodb-original.svg' alt='github' className='w-16' />
           <span>Mongo DB</span>
+        </div>
+        <div>
+          <img src='./images/html5-original.svg' alt='github' className='w-16' />
+          <span>HTML 5</span>
+        </div>
+        <div>
+          <img src='./images/css3-original.svg' alt='github' className='w-16' />
+          <span>CSS 3</span>
         </div>
       </div>
     </article>

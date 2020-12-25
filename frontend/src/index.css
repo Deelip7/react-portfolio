@@ -8,7 +8,10 @@ body {
 }
 
 h1 {
-  background: linear-gradient(275deg, #9ae7ff 30%, #a15eee 50%, #ec91ae 70%, #d8ffa2 94%);
+  /* background: linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%); */
+  background-color: #4158d0;
+  background-image: linear-gradient(43deg, #a162e8 0%, #f7ce68 46%, #85ffbd 100%);
+
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
