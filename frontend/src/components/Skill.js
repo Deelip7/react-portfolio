@@ -2,11 +2,11 @@ import React from 'react';
 
 const Skill = () => {
   return (
-    <article className='my-24'>
+    <article className='my-28'>
       <header className='text-2xl font-bold '>
-        <h1>Skills & Tools</h1>
+        <h2>Skills & Tools</h2>
       </header>
-      <div className='my-7 grid gap-5 grid-cols-3 text-center place-items-center'>
+      <div className='my-7 grid gap-5 grid-cols-3 md:grid-cols-6  text-center place-items-center bg-star-pattern'>
         <div>
           <img src='./images/javascript-original.svg' alt='github' className='w-16' />
           javascript

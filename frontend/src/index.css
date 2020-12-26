@@ -4,13 +4,32 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(18, 18, 18);
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 1rem;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-rendering: optimizelegibility;
 }
 
 h1 {
-  /* background: linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%); */
   background-color: #4158d0;
   background-image: linear-gradient(43deg, #a162e8 0%, #f7ce68 46%, #85ffbd 100%);
+
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-size: 1.4rem !important;
+  background-color: #8e9ffa;
+  background-image: linear-gradient(45deg, #8e9ffa 0%, #f874ef 10%, #ffcc70 29%, #ffffff 100%);
 
   background-clip: border-box;
   -webkit-background-clip: text;

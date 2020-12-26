@@ -7,9 +7,9 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className='App container mx-auto bg-black'>
+    <div className='App container my-10 mx-auto max-w-screen-lg bg-black'>
       <Header />
-      <main className='min-h-screen p-5 text-white'>
+      <main className='px-5 md:px-10'>
         <Hero />
         <Project />
         <Skill />

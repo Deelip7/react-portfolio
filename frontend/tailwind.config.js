@@ -3,9 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     minHeight: {
-      80: '80vh',
+      70: '70vh',
     },
-    extend: {},
+    extend: {
+      backgroundImage: (theme) => ({
+        'star-pattern': "url('/images/bg-effects.png')",
+      }),
+    },
     backgroundColor: (theme) => ({
       ...theme('colors'),
       primary: '#3490dc',
