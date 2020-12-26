@@ -5,11 +5,7 @@ module.exports = {
     minHeight: {
       70: '70vh',
     },
-    extend: {
-      backgroundImage: (theme) => ({
-        'star-pattern': "url('/images/bg-effects.png')",
-      }),
-    },
+    extend: {},
     backgroundColor: (theme) => ({
       ...theme('colors'),
       primary: '#3490dc',

@@ -6,7 +6,7 @@ const Skill = () => {
       <header className='text-2xl font-bold '>
         <h2>Skills & Tools</h2>
       </header>
-      <div className='my-7 grid gap-5 grid-cols-3 md:grid-cols-6  text-center place-items-center bg-star-pattern'>
+      <div className='my-7 grid gap-5 grid-cols-3 md:grid-cols-6  text-center place-items-center '>
         <div>
           <img src='./images/javascript-original.svg' alt='github' className='w-16' />
           javascript

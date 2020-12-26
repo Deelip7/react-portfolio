@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className='my-16  md:my-32 flex flex-col flex-wrap space-y-16 md:space-y-0'>
+    <section className='my-16  md:my-32 flex flex-col flex-wrap space-y-16 md:space-y-0 patterns'>
       <div className='ml-auto w-72 md:w-96 lg:w-3/6 '>
         <img src='./images/Astronaut-01.svg' alt='Astronaut' />
       </div>

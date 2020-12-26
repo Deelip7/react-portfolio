@@ -39,3 +39,11 @@ h3 {
 svg {
   color: #fafafa;
 }
+
+.patterns {
+  background-image: url('./images/bg-effects.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
