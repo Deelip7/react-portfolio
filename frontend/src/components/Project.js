@@ -21,10 +21,10 @@ const Project = () => {
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>Express</span>
               </div>
               <div className='w-auto flex space-x-5 relative'>
-                <a href='https://github.com/Deelip7/react-node-ecommerce' target='_blank'>
+                <a href='https://github.com/Deelip7/react-node-ecommerce' target='_blank' rel='noreferrer'>
                   <img src='./images/github.svg' alt='github' />
                 </a>
-                <a href='https://rn-store.herokuapp.com/' target='_blank'>
+                <a href='https://rn-store.herokuapp.com/' target='_blank' rel='noreferrer'>
                   <img src='./images/external-link.svg' alt='external link' />
                 </a>
               </div>
@@ -42,10 +42,10 @@ const Project = () => {
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>SASS</span>
               </div>
               <div className='w-auto flex space-x-5'>
-                <a href='https://github.com/Deelip7/react-tmdb-app' target='_blank'>
+                <a href='https://github.com/Deelip7/react-tmdb-app' target='_blank' rel='noreferrer'>
                   <img src='./images/github.svg' alt='github' />
                 </a>
-                <a href='https://festive-wilson-a51c32.netlify.app/' target='_blank'>
+                <a href='https://festive-wilson-a51c32.netlify.app/' target='_blank' rel='noreferrer'>
                   <img src='./images/external-link.svg' alt='external link' />
                 </a>
               </div>
@@ -62,10 +62,10 @@ const Project = () => {
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>API</span>
               </div>
               <div className='w-auto flex space-x-5'>
-                <a href='https://github.com/Deelip7/RecipesFinder' target='_blank'>
+                <a href='https://github.com/Deelip7/RecipesFinder' target='_blank' rel='noreferrer'>
                   <img src='./images/github.svg' alt='github' />
                 </a>
-                <a href='https://practical-archimedes-a61091.netlify.app/' target='_blank'>
+                <a href='https://practical-archimedes-a61091.netlify.app/' target='_blank' rel='noreferrer'>
                   <img src='./images/external-link.svg' alt='external link' />
                 </a>
               </div>
@@ -74,7 +74,7 @@ const Project = () => {
         </div>
       </article>
       <div className='bg-gray shadow-lg uppercase border border-gray-500 rounded-lg text-center my-12 p-2 max-w-xs m-auto'>
-        <a href='https://github.com/Deelip7' target='_blank'>
+        <a href='https://github.com/Deelip7' target='_blank' rel='noreferrer'>
           See more on Github
         </a>
       </div>
