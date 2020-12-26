@@ -17,6 +17,10 @@ body {
   text-rendering: optimizelegibility;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   background-color: #4158d0;
   background-image: linear-gradient(43deg, #a162e8 0%, #f7ce68 46%, #85ffbd 100%);

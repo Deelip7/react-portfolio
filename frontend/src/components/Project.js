@@ -3,8 +3,8 @@ import React from 'react';
 const Project = () => {
   return (
     <>
-      <article className='mt-52 mb-28'>
-        <header className='text-2xl font-bold'>
+      <article className='my-28' id='projects'>
+        <header className='text-2xl font-bold pt-10'>
           <h2>Projects</h2>
         </header>
         <div className='my-7 space-y-24'>
@@ -21,8 +21,12 @@ const Project = () => {
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>Express</span>
               </div>
               <div className='w-auto flex space-x-5 relative'>
-                <img src='./images/github.svg' alt='github' />
-                <img src='./images/external-link.svg' alt='external link' />
+                <a href='https://github.com/Deelip7/react-node-ecommerce' target='_blank'>
+                  <img src='./images/github.svg' alt='github' />
+                </a>
+                <a href='https://rn-store.herokuapp.com/' target='_blank'>
+                  <img src='./images/external-link.svg' alt='external link' />
+                </a>
               </div>
             </div>
           </div>
@@ -38,8 +42,12 @@ const Project = () => {
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>SASS</span>
               </div>
               <div className='w-auto flex space-x-5'>
-                <img src='./images/github.svg' alt='github' />
-                <img src='./images/external-link.svg' alt='external link' />
+                <a href='https://github.com/Deelip7/react-tmdb-app' target='_blank'>
+                  <img src='./images/github.svg' alt='github' />
+                </a>
+                <a href='https://festive-wilson-a51c32.netlify.app/' target='_blank'>
+                  <img src='./images/external-link.svg' alt='external link' />
+                </a>
               </div>
             </div>
           </div>
@@ -54,14 +62,22 @@ const Project = () => {
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>API</span>
               </div>
               <div className='w-auto flex space-x-5'>
-                <img src='./images/github.svg' alt='github' />
-                <img src='./images/external-link.svg' alt='external link' />
+                <a href='https://github.com/Deelip7/RecipesFinder' target='_blank'>
+                  <img src='./images/github.svg' alt='github' />
+                </a>
+                <a href='https://practical-archimedes-a61091.netlify.app/' target='_blank'>
+                  <img src='./images/external-link.svg' alt='external link' />
+                </a>
               </div>
             </div>
           </div>
         </div>
       </article>
-      <div className='bg-gray shadow-lg uppercase border border-gray-500 rounded-lg text-center my-12 p-2 max-w-xs m-auto'>See more on Github</div>
+      <div className='bg-gray shadow-lg uppercase border border-gray-500 rounded-lg text-center my-12 p-2 max-w-xs m-auto'>
+        <a href='https://github.com/Deelip7' target='_blank'>
+          See more on Github
+        </a>
+      </div>
     </>
   );
 };

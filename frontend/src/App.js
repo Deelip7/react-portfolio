@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='App container my-10 mx-auto max-w-screen-lg bg-black'>
       <Header />
-      <main className='px-5 md:px-10'>
+      <main className='px-5'>
         <Hero />
         <Project />
         <Skill />
