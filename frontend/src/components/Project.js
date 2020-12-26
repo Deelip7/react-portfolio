@@ -3,17 +3,17 @@ import React from 'react';
 const Project = () => {
   return (
     <>
-      <article className='my-28' id='projects'>
+      <article className='my-28 px-5' id='projects'>
         <header className='text-2xl font-bold pt-10'>
           <h2>Projects</h2>
         </header>
         <div className='my-7 space-y-24'>
           <div className='flex flex-wrap md:justify-between md:items-center'>
             <img src='./images/rn2-mockup.png' alt='MERN eCommerce' className='w-100 md:w-6/12 rounded-lg shadow-lg' />
-            <div className='flex flex-col space-y-3 my-3 mx-1 w-100 md:w-5/12 '>
+            <div className='flex flex-col overflow-auto  space-y-3 my-3 mx-1 w-100 md:w-5/12 '>
               <h3 className='uppercase font-bold text-lg'>MERN eCommerce</h3>
               <p>Full featured, responsive eCommerce store with PayPal payment.</p>
-              <div className='flex overflow-auto space-x-2 pb-2'>
+              <div className='flex overflow-auto space-x-3 pb-2'>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>React.js</span>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>Redux</span>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>MongoDB</span>
