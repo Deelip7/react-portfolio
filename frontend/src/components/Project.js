@@ -12,9 +12,9 @@ const Project = () => {
             <img src='./images/rn2-mockup.png' alt='MERN eCommerce' className='w-100 md:w-6/12 rounded-lg shadow-lg' />
             <div className='flex flex-col overflow-auto  space-y-3 my-3 mx-1 w-100 md:w-5/12 '>
               <h3 className='uppercase font-bold text-lg'>MERN eCommerce</h3>
-              <p>Full featured, responsive eCommerce store with PayPal payment.</p>
+              <p>Full featured ecommerce store built with MERN stack and Paypal payments API. Admin page to manage customers, products & orders.</p>
               <div className='flex overflow-auto space-x-3 pb-2'>
-                <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>React.js</span>
+                <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>React</span>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>Redux</span>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>MongoDB</span>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>JWT</span>
@@ -35,9 +35,9 @@ const Project = () => {
             <img src='./images/tmdb2-mockup.png' alt='Movie App' className='w-100  md:w-6/12 rounded-lg shadow-lg md:order-1' />
             <div className='flex flex-col space-y-3 my-3 mx-1 w-100 md:w-5/12'>
               <h3 className='uppercase font-bold text-lg'>Movie App</h3>
-              <p>Movie search app that will search and return movies based on the movie title.</p>
+              <p>Discover the most popular, top rated and latest movies. Users can also find a movie based on the movie title.</p>
               <div className='flex overflow-auto space-x-2 pb-2'>
-                <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>React.js</span>
+                <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>React</span>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>API</span>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>SASS</span>
               </div>
@@ -56,7 +56,7 @@ const Project = () => {
             <img src='./images/recipe2-mockup.png' alt='Recipe Finder' className='w-100  md:w-6/12 rounded-lg shadow-lg' />
             <div className='flex flex-col space-y-3 my-3 mx-1 w-100 md:w-5/12'>
               <h3 className='uppercase font-bold text-lg'>Recipe Finder</h3>
-              <p>Simple app to find and save recpies. API from themealdb.com.</p>
+              <p>Browse recipes from a variety of sources. Users can save recipes to view them later. API from themealdb.com.</p>
               <div className='flex overflow-auto space-x-2 pb-4'>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>Javascript</span>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>API</span>
@@ -73,11 +73,9 @@ const Project = () => {
           </div>
         </div>
       </article>
-      <div className='bg-gray shadow-lg uppercase border border-gray-500 rounded-lg text-center my-12 p-2 max-w-xs m-auto'>
-        <a href='https://github.com/Deelip7' target='_blank' rel='noreferrer'>
-          See more on Github
-        </a>
-      </div>
+      <a href='https://github.com/Deelip7' target='_blank' rel='noreferrer'>
+        <span className='bg-gray block shadow-lg uppercase border border-gray-500 rounded-lg text-center my-12 p-2 max-w-xs m-auto'>See more on Github</span>
+      </a>
     </>
   );
 };

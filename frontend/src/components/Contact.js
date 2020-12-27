@@ -17,27 +17,27 @@ const Contact = () => {
             </a>
           </div>
           <p className='border-b-2 mt-3 inline-block border-gray-500'>Resume</p>
-          <div className='flex flex-row flex-wrap mt-7'>
-            <div className='gap-1 mr-4 mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-              <a href='https://www.linkedin.com/in/theelipan-prabakar-096437199/' target='_blank' rel='noreferrer'>
+          <div className='flex flex-row flex-wrap mt-7 gap-4'>
+            <a href='https://www.linkedin.com/in/theelipan-prabakar-096437199/' target='_blank' rel='noreferrer'>
+              <span className='gap-1 mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
                 <img src='./images/linkedin.svg' alt='linkedin' />
-              </a>
-              Linkedin
-            </div>
+                Linkedin
+              </span>
+            </a>
 
-            <div className='gap-1 mr-4 mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-              <a href='https://github.com/Deelip7' target='_blank' rel='noreferrer'>
+            <a href='https://github.com/Deelip7' target='_blank' rel='noreferrer'>
+              <span className='gap-1 mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
                 <img src='./images/github.svg' alt='github' />
-              </a>
-              Github
-            </div>
+                Github
+              </span>
+            </a>
 
-            <div className='gap-1 mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-              <a href='https://codepen.io/deelip7' target='_blank' rel='noreferrer'>
+            <a href='https://codepen.io/deelip7' target='_blank' rel='noreferrer'>
+              <span className='gap-1 mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
                 <img src='./images/codepen.svg' alt='codepen' />
-              </a>
-              Codepen
-            </div>
+                Codepen
+              </span>
+            </a>
           </div>
         </div>
         <div className='m-auto mt-10 md:mt-0 max-w-xs md:max-w-sm'>
