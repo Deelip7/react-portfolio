@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <article className='my-28' id='contact'>
       <header className='px-5 text-2xl font-bold pt-10'>
-        <h>Contact Me</h>
+        <h2>Contact Me</h2>
         <p className='text-base font-thin'>I'd love to hear your thoughts!</p>
       </header>
       <div className='md:mx-6 flex flex-col md:flex-row justify-between md:items-end'>
@@ -20,28 +20,28 @@ const Contact = () => {
           <div className='flex flex-row flex-wrap mt-7 gap-4'>
             <a href='https://www.linkedin.com/in/theelipan-prabakar-096437199/' target='_blank' rel='noreferrer'>
               <span className='gap-1 mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-                <img src='./images/linkedin.svg' alt='linkedin' />
+                <img src='./images/icons/linkedin.svg' alt='linkedin' />
                 Linkedin
               </span>
             </a>
 
             <a href='https://github.com/Deelip7' target='_blank' rel='noreferrer'>
               <span className='gap-1 mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-                <img src='./images/github.svg' alt='github' />
+                <img src='./images/icons/github.svg' alt='github' />
                 Github
               </span>
             </a>
 
             <a href='https://codepen.io/deelip7' target='_blank' rel='noreferrer'>
               <span className='gap-1 mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-                <img src='./images/codepen.svg' alt='codepen' />
+                <img src='./images/icons/codepen.svg' alt='codepen' />
                 Codepen
               </span>
             </a>
           </div>
         </div>
         <div className='m-auto mt-10 md:mt-0 max-w-xs md:max-w-sm'>
-          <img src='./images/rocket2.png' alt='' />
+          <img src='./images/rocket.svg' alt='' />
         </div>
       </div>
     </article>

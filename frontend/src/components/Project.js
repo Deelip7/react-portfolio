@@ -9,7 +9,7 @@ const Project = () => {
         </header>
         <div className='my-7 space-y-24'>
           <div className='flex flex-wrap md:justify-between md:items-center'>
-            <img src='./images/rn2-mockup.png' alt='MERN eCommerce' className='w-100 md:w-6/12 rounded-lg shadow-lg' />
+            <img src='./images/rn-mockup.svg' alt='MERN eCommerce' className='w-100 md:w-6/12 rounded-lg shadow-lg' />
             <div className='flex flex-col overflow-auto  space-y-3 my-3 mx-1 w-100 md:w-5/12 '>
               <h3 className='uppercase font-bold text-lg'>MERN eCommerce</h3>
               <p>Full featured ecommerce store built with MERN stack and Paypal payments API. Admin page to manage customers, products & orders.</p>
@@ -22,17 +22,17 @@ const Project = () => {
               </div>
               <div className='w-auto flex space-x-5 relative'>
                 <a href='https://github.com/Deelip7/react-node-ecommerce' target='_blank' rel='noreferrer'>
-                  <img src='./images/github.svg' alt='github' />
+                  <img src='./images/icons/github.svg' alt='github' />
                 </a>
                 <a href='https://rn-store.herokuapp.com/' target='_blank' rel='noreferrer'>
-                  <img src='./images/external-link.svg' alt='external link' />
+                  <img src='./images/icons/external-link.svg' alt='external link' />
                 </a>
               </div>
             </div>
           </div>
 
           <div className='flex flex-wrap md:justify-between md:items-center'>
-            <img src='./images/tmdb2-mockup.png' alt='Movie App' className='w-100  md:w-6/12 rounded-lg shadow-lg md:order-1' />
+            <img src='./images/tmdb-mockup.svg' alt='Movie App' className='w-100  md:w-6/12 rounded-lg shadow-lg md:order-1' />
             <div className='flex flex-col space-y-3 my-3 mx-1 w-100 md:w-5/12'>
               <h3 className='uppercase font-bold text-lg'>Movie App</h3>
               <p>Discover the most popular, top rated and latest movies. Users can also find a movie based on the movie title.</p>
@@ -43,17 +43,17 @@ const Project = () => {
               </div>
               <div className='w-auto flex space-x-5'>
                 <a href='https://github.com/Deelip7/react-tmdb-app' target='_blank' rel='noreferrer'>
-                  <img src='./images/github.svg' alt='github' />
+                  <img src='./images/icons/github.svg' alt='github' />
                 </a>
                 <a href='https://festive-wilson-a51c32.netlify.app/' target='_blank' rel='noreferrer'>
-                  <img src='./images/external-link.svg' alt='external link' />
+                  <img src='./images/icons/external-link.svg' alt='external link' />
                 </a>
               </div>
             </div>
           </div>
 
           <div className='flex flex-wrap md:justify-between md:items-center'>
-            <img src='./images/recipe2-mockup.png' alt='Recipe Finder' className='w-100  md:w-6/12 rounded-lg shadow-lg' />
+            <img src='./images/recipeApp-mockup.svg' alt='Recipe Finder' className='w-100  md:w-6/12 rounded-lg shadow-lg' />
             <div className='flex flex-col space-y-3 my-3 mx-1 w-100 md:w-5/12'>
               <h3 className='uppercase font-bold text-lg'>Recipe Finder</h3>
               <p>Browse recipes from a variety of sources. Users can save recipes to view them later. API from themealdb.com.</p>
@@ -63,10 +63,10 @@ const Project = () => {
               </div>
               <div className='w-auto flex space-x-5'>
                 <a href='https://github.com/Deelip7/RecipesFinder' target='_blank' rel='noreferrer'>
-                  <img src='./images/github.svg' alt='github' />
+                  <img src='./images/icons/github.svg' alt='github' />
                 </a>
                 <a href='https://practical-archimedes-a61091.netlify.app/' target='_blank' rel='noreferrer'>
-                  <img src='./images/external-link.svg' alt='external link' />
+                  <img src='./images/icons/external-link.svg' alt='external link' />
                 </a>
               </div>
             </div>
