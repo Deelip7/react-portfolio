@@ -20,7 +20,3 @@ My personal portfolio. Built with React.js
 ### Authors 
 
    Theelipan Prabakar - https://www.theelipan.com/
-
-### License 📄
-
-  This project is licensed under the MIT License.
