@@ -16,7 +16,7 @@ const Project = () => {
                 width='380px'
                 height='280px'
                 alt={project.title}
-                className={index % 2 == 0 ? 'w-full md:w-6/12 rounded-lg shadow-lg md:order-1' : 'w-full md:w-6/12 rounded-lg shadow-lg'}
+                className={index % 2 === 0 ? 'w-full md:w-6/12 rounded-lg shadow-lg md:order-1' : 'w-full md:w-6/12 rounded-lg shadow-lg'}
               />
               <div className='flex flex-col overflow-auto  space-y-3 my-3 mx-1 w-full md:w-5/12 '>
                 <h3 className='uppercase font-bold text-lg'>{project.title}</h3>
