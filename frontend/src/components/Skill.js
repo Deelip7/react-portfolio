@@ -21,7 +21,7 @@ const Skill = () => {
         </div>
         <div>
           <img src='./images/icons/mongodb-original.svg' alt='github' className='w-16' width='64px' height='64px' />
-          <span>Mongo DB</span>
+          <span>MongoDB</span>
         </div>
         <div>
           <img src='./images/icons/html5-original.svg' alt='github' className='w-16' width='64px' height='64px' />
