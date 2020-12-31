@@ -1,7 +1,7 @@
 # Portfolio
 My personal portfolio. Built with React.js
 
-<img src="https://www.theelipan.com/images/rocket.svg" alt="illustration of a rocket" width="300"/>
+<img src="https://user-images.githubusercontent.com/38120176/103391531-f435cf00-4ae7-11eb-864b-7f1ae0289747.png" alt="illustration of a rocket"/>
 
 ## Features
 
