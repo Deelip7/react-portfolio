@@ -17,6 +17,6 @@ My personal portfolio. Built with React.js
 - [https://illlustrations.co/ ](https://illlustrations.co/)
 - [https://www.pixeltrue.com/](https://www.pixeltrue.com/)
 
-### Authors 
+### Author
 
    Theelipan Prabakar - https://www.theelipan.com/
