@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className='space-x-10'>
+    <nav className='space-x-10'>
       <ul className='flex flex-row space-x-4 md:space-x-10 md:text-xl justify-center md:justify-end font-thin'>
         <li className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
           <a href='#projects'>Projects</a>
@@ -15,7 +15,7 @@ const Header = () => {
           <p>Resume</p>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 

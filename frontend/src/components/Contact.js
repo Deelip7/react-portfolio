@@ -21,7 +21,7 @@ const Contact = () => {
             <div className='mr-4'>
               <a href='https://www.linkedin.com/in/theelipan-prabakar-096437199/' target='_blank' rel='noreferrer'>
                 <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-                  <img src='./images/icons/linkedin.svg' alt='linkedin' width='24px' height='24px' className='mr-1' />
+                  <img src='./images/icons/linkedin.svg' alt='' width='24px' height='24px' className='mr-1' />
                   LinkedIn
                 </span>
               </a>
@@ -30,7 +30,7 @@ const Contact = () => {
             <div className='mr-4'>
               <a href='https://github.com/Deelip7' target='_blank' rel='noreferrer'>
                 <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-                  <img src='./images/icons/github.svg' alt='github' width='24px' height='24px' className='mr-1' />
+                  <img src='./images/icons/github.svg' alt='' width='24px' height='24px' className='mr-1' />
                   GitHub
                 </span>
               </a>
@@ -38,7 +38,7 @@ const Contact = () => {
 
             <a href='https://codepen.io/deelip7' target='_blank' rel='noreferrer'>
               <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-                <img src='./images/icons/codepen.svg' alt='codepen' width='24px' height='24px' className='mr-1' />
+                <img src='./images/icons/codepen.svg' alt='' width='24px' height='24px' className='mr-1' />
                 CodePen
               </span>
             </a>
