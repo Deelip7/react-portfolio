@@ -11,8 +11,9 @@ const Header = () => {
           <a href='#contact'>Contact</a>
         </li>
         <li className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
-          {/* <a href='#'>Resume</a> */}
-          <p>Resume</p>
+          <a href='./Theelipan  Prabakar - Resume.pdf' target='_blank' rel='noreferrer'>
+            Resume
+          </a>
         </li>
       </ul>
     </nav>

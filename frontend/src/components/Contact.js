@@ -16,7 +16,9 @@ const Contact = () => {
               Theelipan@gmail.com
             </a>
           </div>
-          <p className='border-b-2 mt-3 inline-block border-gray-500 '>Resume</p>
+          <a className='border-b-2 mt-3 inline-block border-gray-500' href='./resume.pdf' target='_blank' rel='noreferrer'>
+            Resume
+          </a>
           <div className='flex flex-row flex-wrap mt-7'>
             <div className='mr-4'>
               <a href='https://www.linkedin.com/in/theelipan-prabakar-096437199/' target='_blank' rel='noreferrer'>
