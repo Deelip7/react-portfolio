@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <article className='my-28' id='contact'>
+    <section className='my-28' id='contact'>
       <header className='px-5 text-2xl font-bold pt-10'>
         <h2>Contact Me</h2>
         <p className='text-base font-thin'>I'd love to hear your thoughts!</p>
@@ -46,11 +46,11 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className='m-auto mt-10 md:mt-0 max-w-xs md:max-w-sm'>
-          <img src='./images/rocket.svg' width='380px' height='280px' alt='red rocket flying' />
+        <div className='m-auto mt-10 md:mt-0 max-w-xs md:max-w-sm' onClick={() => window.scroll(0, 0)}>
+          <img src='./images/rocket.webp' srcSet='./images/rocket-320.webp 320w, ./images/rocket.webp 768w' width='500px' height='500px' loading='lazy' alt='red rocket flying' />
         </div>
       </div>
-    </article>
+    </section>
   );
 };
 

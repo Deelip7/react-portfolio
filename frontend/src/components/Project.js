@@ -4,17 +4,22 @@ import projects from '../projectData';
 const Project = () => {
   return (
     <>
-      <article className='my-28 px-5' id='projects'>
+      <section className='my-28 px-5' id='projects'>
         <header className='text-2xl font-bold pt-10'>
           <h2>Projects</h2>
         </header>
         <div className='my-7 space-y-24'>
           {projects.map((project, index) => (
-            <div className='flex flex-wrap md:justify-between md:items-center' key={index}>
+            <article className='flex flex-wrap md:justify-between md:items-center' key={index}>
               <img
-                src={project.image}
-                width='380px'
-                height='280px'
+                src={`${project.image}-768.webp`}
+                srcSet={`${project.image}-1280.webp 1920w,
+                         ${project.image}-768.webp 768w,
+                         ${project.image}-320.webp 320w`}
+                sizes='(min-width: 768px) 50vw, 100vw'
+                width='768px'
+                height='575px'
+                loading='lazy'
                 alt={project.title}
                 className={index % 2 === 0 ? 'w-full md:w-6/12 rounded-lg shadow-lg ' : 'w-full md:w-6/12 rounded-lg shadow-lg md:order-1'}
               />
@@ -37,10 +42,10 @@ const Project = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </article>
           ))}
         </div>
-      </article>
+      </section>
       <div className='mx-5'>
         <a href='https://github.com/Deelip7' target='_blank' rel='noreferrer' className='bg-gray block shadow-lg uppercase border border-gray-500 rounded-lg text-center my-12 p-2 max-w-xs m-auto'>
           <span>See more on Github</span>
