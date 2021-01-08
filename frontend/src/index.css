@@ -54,6 +54,10 @@ img {
   height: 100%;
 }
 
+*:focus:not(.focus-visible) {
+  outline: none;
+}
+
 /* Loader */
 
 .sk-folding-cube {

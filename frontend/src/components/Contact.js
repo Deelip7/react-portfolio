@@ -47,7 +47,12 @@ const Contact = () => {
           </div>
         </div>
         <div className='m-auto mt-10 md:mt-0 max-w-xs md:max-w-sm' onClick={() => window.scroll(0, 0)}>
-          <img src='./images/rocket.webp' srcSet='./images/rocket-320.webp 320w, ./images/rocket.webp 768w' width='500px' height='500px' loading='lazy' alt='red rocket flying' />
+          <picture>
+            <source src='./images/rocket.webp' srcSet='./images/rocket-320.webp 320w, ./images/rocket.webp 768w' type='image/webp' />
+            <source src='./images/rocket.png' srcSet='./images/rocket.png' sizes='(min-width: 768px) 50vw, 100vw' type='image/png' />
+
+            <img width='500px' height='500px' loading='lazy' alt='red rocket flying' />
+          </picture>
         </div>
       </div>
     </section>
