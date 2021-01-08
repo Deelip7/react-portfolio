@@ -40,10 +40,6 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
-svg {
-  color: #fafafa;
-}
-
 .patterns {
   background-image: url('./images/bg-effects.png');
   background-position: center;
