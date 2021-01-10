@@ -52,11 +52,11 @@ const Contact = () => {
             <input type='hidden' name='form-name' value='contact' />
 
             <label for='name'>Name</label>
-            <input type='text' name='name' id='name' className='gradient'></input>
+            <input type='text' name='name' id='name' className='gradient' required></input>
             <label for='email'>Email</label>
-            <input type='email' name='email' id='email' className='gradient'></input>
+            <input type='email' name='email' id='email' className='gradient' required></input>
             <label for='message'>Message</label>
-            <textarea name='message' id='message' cols='25' rows='5' className='gradient'></textarea>
+            <textarea name='message' id='message' cols='25' rows='5' className='gradient' required></textarea>
             <button type='submit' className='border border-gray-500 p-2 rounded-lg w-auto mr-auto shadow-md'>
               Send Message
             </button>
