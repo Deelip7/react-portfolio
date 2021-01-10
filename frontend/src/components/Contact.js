@@ -7,8 +7,8 @@ const Contact = () => {
         <h2>Contact Me</h2>
         <p className='text-base font-thin'>I'd love to hear your thoughts!</p>
       </header>
-      <div className='md:mx-6 flex flex-col md:flex-row justify-between md:items-end'>
-        <div className='bg-gray px-6 py-8 md:rounded-lg shadow-lg justify-center my-7 md:w-6/12  '>
+      <div className='md:mx-6 flex flex-col flex-wrap md:flex-row justify-between'>
+        <div className='md:w-6/12 md:px-0 p-5 my-5'>
           <div>
             <p className='font-bold'>Theelipan Prabakar</p>
             <p className='font-thin'>Middletown, Connecticut</p>
@@ -46,14 +46,27 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className='m-auto mt-10 md:mt-0 max-w-xs md:max-w-sm' onClick={() => window.scroll(0, 0)}>
-          <picture>
-            <source srcSet='./images/rocket-320.webp 320w, ./images/rocket.webp 768w' type='image/webp' />
-            <source srcSet='./images/rocket.png' sizes='(min-width: 768px) 50vw, 100vw' type='image/png' />
 
-            <img width='500px' height='500px' loading='lazy' alt='red rocket flying' />
-          </picture>
+        <div className='bg-gray px-5 py-10 md:py-8 sm:p-8 my-2 md:rounded-lg shadow-lg  justify-between w-full  md:w-6/12 '>
+          <form className='flex flex-col space-y-3 m-auto w-full' name='contact' method='POST' data-netlify='true' data-netlify-recaptcha='true'>
+            <label for='name'>Name</label>
+            <input type='text' name='name' id='name' className='gradient'></input>
+            <label for='email'>Email</label>
+            <input type='email' name='email' id='email' className='gradient'></input>
+            <label for='message'>Message</label>
+            <textarea name='message' id='message' cols='25' rows='5' className='gradient'></textarea>
+            <button type='submit' className='border border-gray-500 p-2 rounded-lg w-auto mr-auto shadow-md'>
+              Send Message
+            </button>
+          </form>
         </div>
+      </div>
+      <div className='relative md:bottom-56 mr-auto ml-auto md:mr-auto md:ml-0 max-w-xs md:max-w-sm' onClick={() => window.scroll(0, 0)}>
+        <picture>
+          <source srcSet='./images/rocket-320.webp 320w, ./images/rocket.webp 768w' type='image/webp' />
+          <source srcSet='./images/rocket.png' sizes='(min-width: 768px) 50vw, 100vw' type='image/png' />
+          <img width='500px' height='500px' loading='lazy' alt='red rocket flying' />
+        </picture>
       </div>
     </section>
   );
