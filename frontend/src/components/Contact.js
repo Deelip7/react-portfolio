@@ -51,11 +51,11 @@ const Contact = () => {
           <form className='flex flex-col space-y-3 m-auto w-full' name='contact' method='post'>
             <input type='hidden' name='form-name' value='contact' />
 
-            <label for='name'>Name</label>
+            <label htmlFor='name'>Name</label>
             <input type='text' name='name' id='name' className='gradient' required></input>
-            <label for='email'>Email</label>
+            <label htmlFor='email'>Email</label>
             <input type='email' name='email' id='email' className='gradient' required></input>
-            <label for='message'>Message</label>
+            <label htmlFor='message'>Message</label>
             <textarea name='message' id='message' cols='25' rows='5' className='gradient' required></textarea>
             <button type='submit' className='border border-gray-500 p-2 rounded-lg w-auto mr-auto shadow-md'>
               Send Message
