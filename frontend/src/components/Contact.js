@@ -16,12 +16,12 @@ const Contact = () => {
               Theelipan@gmail.com
             </a>
           </div>
-          <a className='border-b-2 mt-3 inline-block border-gray-500' href='./Resume.pdf' target='_blank' rel='noreferrer'>
+          <a className='border-b-2 mt-3 inline-block border-gray-500' href='./CV.pdf' target='_blank' rel='noreferrer'>
             Resume
           </a>
           <div className='flex flex-row flex-wrap mt-7'>
             <div className='mr-4'>
-              <a href='https://www.linkedin.com/in/theelipan-prabakar-096437199/' target='_blank' rel='noreferrer'>
+              <a href='https://www.linkedin.com/in/theelipan' target='_blank' rel='noreferrer'>
                 <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
                   <img src='./images/icons/linkedin.svg' alt='' width='24px' height='24px' className='mr-1' />
                   LinkedIn
