@@ -15,7 +15,7 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a href='./CV.pdf' target='_blank' rel='noreferrer' className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
+          <a href='./Theelipan Prabakar Resume.pdf' target='_blank' rel='noreferrer' className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
             Resume
           </a>
         </li>
